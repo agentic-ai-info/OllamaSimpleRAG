@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Local Ollama Chat</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+</head>
+
+<body>
+    <div id="chat">
+        <h2>Ollama Chat</h2>
+
+        <label>
+            Modell:
+            <input id="model" type="text" value="llama3" />
+        </label>
+
+        <div id="messages"></div>
+
+        <div id="inputRow">
+            <input id="prompt" type="text" placeholder="Add message and press Enter or click Send…" />
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <script src="main.js" defer></script>
+</body>
+
+</html>
