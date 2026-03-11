@@ -1,4 +1,4 @@
-# Ollama Simple RAG for Contacts
+# Ollama Simple RAG Example in Javascript
 
 This is a simple Retrieval-Augmented Generation (RAG) web application that allows you to query a contacts database using natural language. It uses Ollama for local AI models to classify queries, generate embeddings, and provide answers based on relevant contact information.
 
